@@ -49,7 +49,10 @@ public class NowPlayingActivity extends BaseActivity implements ATEActivityTheme
         return Config.LIGHT_TOOLBAR_AUTO;
     }
 
-
+    @Override
+    public int getToolbarColor() {
+        return Color.TRANSPARENT;
+    }
     @Override
     public void onResume() {
         super.onResume();
